@@ -37,8 +37,9 @@ section {
 
 section h2 {
   font-family: var(--Title-font);
+  font-size: 1.8rem;
+  font-weight: 400;
   color: var(--Brown-800);
-  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -72,6 +73,7 @@ main img {
 main h1 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-size: 2.4rem;
   font-family: var(--Title-font);
   color: var(--Stone-900);
 }
@@ -88,7 +90,7 @@ main h1 {
   font-family: var(--Text-font);
   color: var(--Rose-800);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0;
 }
 
@@ -147,8 +149,8 @@ main h1 {
 }
 
 /* Nutrition section */
-.nutrition p {
-  margin-bottom: 1rem;
+.nutrition .description {
+  margin: 1.3rem 0 1rem;
 }
 
 .nutrition .info-container {
