@@ -60,7 +60,7 @@ main {
   background-color: var(--White);
   width: 736px;
   border-radius: 20px;
-  padding: 40px;
+  padding: 40px 40px 0;
   color: var(--Stone-600);
   font-family: var(--Text-font);
 }
@@ -159,9 +159,17 @@ main h1 {
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
+.nutrition .info-container:last-of-type {
+  border-bottom: none;
+}
+
 .nutrition .info-container p {
   margin: 1rem 0;
 }
+
+/* .nutrition .info-container:last-of-type p {
+  margin: 0;
+} */
 
 .nutrition .info-container .nutrition-title {
   margin-left: 2rem;
