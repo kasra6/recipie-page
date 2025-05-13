@@ -191,5 +191,24 @@ main h1 {
   main {
     width: 100%;
     border-radius: 0;
+    padding: 0;
+  }
+
+  main img {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  main > p,
+  section {
+    margin: 0 40px;
+  }
+
+  main h1 {
+    margin: 20px 40px;
+  }
+
+  .prepare-time {
+    margin: 30px 40px 0;
   }
 }
